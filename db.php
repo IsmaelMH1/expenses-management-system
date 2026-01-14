@@ -2,7 +2,7 @@
 
 // db.php
 $host = "localhost";
-$dbname = "expenseah";   // your database name
+$dbname = "";   // your database name
 $user = "root";
 $pass = ""; 
 
@@ -19,3 +19,4 @@ try {
 } catch (PDOException $e) {
     die("Database connection failed: " . $e->getMessage());
 }
+
